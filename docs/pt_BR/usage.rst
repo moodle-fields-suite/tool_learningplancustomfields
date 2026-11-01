@@ -19,7 +19,14 @@ O botão abre a página comum de edição da Moodle Fields Suite. Ao salvar, voc
 
    Editando os valores de um plano de aprendizagem.
 
-Quem não pode editar vê só os valores visíveis para si; quando não há nenhum, nada aparece. Os valores de um modelo não são copiados para os planos criados a partir dele.
+Quem não pode editar vê só os valores visíveis para si; quando não há nenhum, nada aparece.
+
+Modelos e planos
+----------------
+
+As duas áreas têm campos próprios, porque descrevem coisas diferentes: os campos do modelo descrevem o programa (por exemplo, a área ou a duração prevista), e os do plano descrevem o acompanhamento de cada pessoa (por exemplo, o mentor ou a etapa). Por isso, os valores de um modelo não são copiados para os planos criados a partir dele.
+
+Para mostrar os valores do modelo junto de um plano baseado nele, leia-os pelo web service abaixo, com ``area=template`` e o modelo do plano (``templateid`` do plano).
 
 Web service
 -----------
