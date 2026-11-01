@@ -19,7 +19,14 @@ The button opens the common editing page of the Moodle Fields Suite. Save to go 
 
    Editing the values of a learning plan.
 
-Users who cannot edit see only the values visible to them; when there are none, nothing is shown. The values of a template are not copied to the plans created from it.
+Users who cannot edit see only the values visible to them; when there are none, nothing is shown.
+
+Templates and plans
+-------------------
+
+The two areas have their own fields, because they describe different things: the template fields describe the programme (for example its area or expected duration), and the plan fields describe how each person is followed (for example their mentor or stage). So the values of a template are not copied to the plans created from it.
+
+To show the template values next to a plan based on it, read them with the web service below, using ``area=template`` and the template of the plan (``templateid`` of the plan).
 
 Web service
 -----------
